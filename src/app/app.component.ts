@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-main',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-application';
+  statusMessage = "I sell propane and propane accessories";
+  poster = "Zelda Mazur"
+  numberOfComments = 1
 }
