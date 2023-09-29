@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+.status {
+    padding: 3em;
+    box-shadow: 8px 8px 20px #eee;
+    margin-bottom: 3em;
+}
