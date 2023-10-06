@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { StatusDisplay } from './status-display/status-display.component';
-import { ImagePostComponent } from './image-post/image-post.component'
+import { OrderDashboardComponent } from './order-dashboard/order-dashboard.component';
+import { FirstFiveOrdersComponent } from './first-five-orders/first-five-orders.component';
+import { AllOtherOrdersComponent } from './all-other-orders/all-other-orders.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StatusDisplay,
-    ImagePostComponent
+    OrderDashboardComponent,
+    FirstFiveOrdersComponent,
+    AllOtherOrdersComponent
   ],
   imports: [
     BrowserModule,
